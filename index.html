@@ -2,10 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
-</head>
+</head>  
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">My Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#bio">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Hi, i'm Neila Curiel!
+        Welcome to My Portfolio <3 </h1>
+      <p class="hero-subtitle">Web Developer & Creative Designer</p>
+      <button class="cta-button">View My Work</button>
+    </div>
+  </section>
+
+  <!-- Bio Section -->
+  <section id="bio" class="bio">
+    <div class="bio-container">
+      <h2 class="section-title">About Me</h2>
+      <!-- Profile Image -->
+      <img src="img/IMG_0060 (1).jpeg" alt="Neila Curiel Profile" class="profile-image">
+      <p class="bio-text">
+        I'm a passionate web developer learning to create beautiful, functional websites. 
+        With a focus on clean code and user experience, I'm excited to showcase the projects 
+        I build throughout my web development journey. Let's create something amazing together!
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+      <!-- Skill Card 1 -->
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <h3 class="skill-name">Web Design</h3>
+        <p class="skill-description">Creating clean and modern website designs with user experience in mind.</p>
+      </div>
+
+      <!-- Skill Card 2 -->
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <h3 class="skill-name">HTML & CSS</h3>
+        <p class="skill-description">Building responsive and accessible web pages using semantic HTML and modern CSS.</p>
+      </div>
+
+      <!-- Skill Card 3 -->
+      <div class="skill-card">
+        <div class="skill-icon">⚡</div>
+        <h3 class="skill-name">Performance</h3>
+        <p class="skill-description">Optimizing websites for speed and ensuring smooth user interactions.</p>
+      </div>
+
+      <!-- Skill Card 4 -->
+      <div class="skill-card">
+        <div class="skill-icon">📱</div>
+        <h3 class="skill-name">Responsive Design</h3>
+        <p class="skill-description">Building websites that look great on all devices and screen sizes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>
